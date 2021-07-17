@@ -1,0 +1,13 @@
+* {
+  	box-sizing: border-box;
+}
+body {
+	margin: 0;
+}
+.hello{
+	height: 500px;
+	margin-left: 150px;
+}
+.out{
+	height: 80px;
+}

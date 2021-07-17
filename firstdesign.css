@@ -1,0 +1,122 @@
+* {
+    box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+body{
+  background-color: #f0f2f5;
+}
+#logo{
+  width: 100%;
+  height: 100%;
+  margin-top: 200px;
+}
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 100%;
+    margin-bottom: 100px;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+  width: 50%;
+}
+.form {
+  width: 50%;
+  margin-top: 100px;
+  margin-left: 50px;
+  padding: 20px;
+  background: white;
+  border: 1px solid white;
+  border-bottom: none;
+  border-radius: 10px 10px 10px 10px;
+  box-shadow: 3px 3px 3px 3px lightgrey;
+}
+.formcontent {
+  width: 55%;
+  margin-left: 50px;
+  margin-top: 50px;
+  padding: 20px;
+  background: white;
+  border: 1px solid white;
+  border-bottom: none;
+  border-radius: 10px 10px 10px 10px;
+  box-shadow: 3px 3px 3px 3px lightgrey;
+}
+.input-group {
+  margin: 10px 0px 10px 0px;
+}
+.input-group label {
+  display: block;
+  text-align: left;
+  margin: 3px;
+}
+.input-group input {
+  height: 40px;
+  width: 100%;
+  padding: 5px 10px;
+  font-size: 16px;
+  border-width: thin;
+  border: 1px solid grey; 
+  border-radius: 5px;
+}
+input:focus .button {
+    outline: none !important;
+}
+.input-group input:hover{
+    border-color: #1877f2;
+}
+.button  {
+  width: 100%;
+  padding: 10px;
+  font-family: arial;
+  font-weight: bold;
+  font-size: 20px;
+  color: white;
+  border-radius: 5px;
+  background-color:#1877f2;
+  border-color: #1877f2;
+  cursor: pointer;
+}
+a:hover, a:active {
+  background-color: #42b72a;
+}
+a:link, a:visited {
+  width: 100%;
+  margin-top: 5px;
+  background-color: #42b72a;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  font-family: arial;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  display: inline-block;
+}
+.error {
+  width: 75%; 
+  margin-left: 37px; 
+  padding: 5px; 
+  border: 1px solid #a94442; 
+  color: #a94442; 
+  background: #f2dede; 
+  border-radius: 5px; 
+  text-align: left;
+}
+.success {
+  color: #3c763d; 
+  background: #dff0d8; 
+  border: 1px solid #3c763d;
+  margin-bottom: 20px;
+  font-family: monospace;
+}
+.reg{
+  text-align: center;
+}
+

@@ -1,0 +1,12 @@
+Control panel username:	0fe_29141758
+Control panel password:	**********
+Control panel URL:	cpanel.0fees.us
+MySQL username	0fe_29141758
+MySQL password:	**********
+MySQL hostname:	sql301.0fees.us
+FTP username:	0fe_29141758
+FTP password:	**********
+FTP host name:	ftp.0fees.us
+Your Website URL:	http://guwen.0fees.us
+
+$db = mysqli_connect("sql301.0fees.us","0fe_29141758","05221226","0fe_29141758_mc_db");
